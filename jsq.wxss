@@ -1,0 +1,37 @@
+/* pages/jsq/jsq.wxss */
+.screen view {
+  /* 第一：字体大小； 第二行：向右对齐；  第三行：右距离：长度单位 */
+  font-size: 60rpx;
+  text-align: right;
+  margin-right: 30rpx;
+}
+.screen {
+  /* 定义显示区域  
+  第一：固定位置； 第二行：底部位置：长度单位；  第三行：自动换行；  第四行：显示区域宽度：长度单位； */
+  position: fixed;
+  bottom: 780rpx;
+  word-wrap: break-word;
+  width: 750rpx;
+}
+
+
+
+
+.btnGroup {
+  /* 按钮项目组 第一行：弹性盒子：收缩   第二行：收缩的方向：行排 */
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-item {
+  /* 按钮项目  第一行：宽度：长度单位；  第二行：文本对齐：中心   第三行：行高：长度单位*/
+  width: 188rpx;
+  text-align: center;
+  line-height: 150rpx;
+}
+
+.bottom {
+  /* 底部     第一行：内容：固定；  第二行：固定在底部 */
+  position: fixed;
+  bottom:0;
+}
